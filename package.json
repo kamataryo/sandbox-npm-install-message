@@ -1,0 +1,15 @@
+{
+  "name": "@kamataryo-sandbox/sandbox-npm-install-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "scripts": {
+    "preinstall": "node index.js pre",
+    "install": "node index.js",
+    "postinstall": "node index.js post"
+  }
+}
